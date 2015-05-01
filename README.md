@@ -7,6 +7,7 @@ You can have some errors during installation
 To solve them, try :
 - `sudo npm install grunt --save-dev` for grunt not working
 - `bower install` for not could find Bower packages !
+- `sudo npm install grunt-karma --save-dev` for karma missing (`grunt test`)
 
 ## Build & development
 
