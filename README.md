@@ -9,6 +9,10 @@ To solve them, try :
 - `bower install` for not could find Bower packages !
 - `sudo npm install grunt-karma --save-dev` for karma missing (`grunt test`)
 - `npm install karma-jasmine --save-dev` for jasmine missing using karma
+- 
+
+Magical command when grunt serve doesn't work :
+- `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`
 
 ## Build & development
 
