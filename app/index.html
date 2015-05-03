@@ -40,9 +40,14 @@
       </div>
     </div>
 
-    <div class="container">
-    <div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>
+    <div ng-controller="TitleController">
+      <expander class="expander" expander-title="title">
+        {{text}}
+      </expander>
     </div>
+    <!-- <div class="container">
+    <div ng-include="'views/main.html'" ng-controller="MainCtrl"></div>
+    </div> -->
 
     <div class="footer">
       <div class="container">
